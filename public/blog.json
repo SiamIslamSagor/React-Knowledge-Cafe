@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Art of Writing",
+    "cover": "https://i.ibb.co/kxG1BFm/high-angle-desktop-with-laptop-copy-space.jpg",
+    "author": "John Doe",
+    "author_img": "https://images.unsplash.com/photo-1685651523477-7a67c62d00b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXV0aGVyJTIwaW1nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "posted_date": "2023-09-13",
+    "reading_time": 10,
+    "hashtags": ["writing", "creativity"]
+  },
+  {
+    "id": 2,
+    "title": "Exploring Nature's Wonders",
+    "cover": "https://i.ibb.co/0QpsmTG/top-view-workspace-with-laptop-cup-tea.jpg",
+    "author": "Jane Smith",
+    "author_img": "https://images.unsplash.com/photo-1560011316-77f3185ec566?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGF1dGhlciUyMGltZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "posted_date": "2023-09-12",
+    "reading_time": 8,
+    "hashtags": ["nature", "travel"]
+  },
+  {
+    "id": 3,
+    "title": "Cooking Adventures",
+    "cover": "https://i.ibb.co/MCPm9Qh/minimalistic-black-background-with-laptop-notepad-office-plants-top-view.jpg",
+    "author": "David Johnson",
+    "author_img": "https://images.unsplash.com/photo-1685808155214-d968eb3a8493?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGF1dGhlciUyMGltZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "posted_date": "2023-09-11",
+    "reading_time": 15,
+    "hashtags": ["cooking", "food"]
+  },
+  {
+    "id": 4,
+    "title": "The Science of Space",
+    "cover": "https://i.ibb.co/ZxC8GMw/flat-lay-workstation-with-copy-space-laptop.jpg",
+    "author": "Emily Wilson",
+    "author_img": "https://images.unsplash.com/photo-1685980027180-eba21bcf6372?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGF1dGhlciUyMGltZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "posted_date": "2023-09-10",
+    "reading_time": 12,
+    "hashtags": ["space", "science"]
+  },
+  {
+    "id": 5,
+    "title": "Mindful Living",
+    "cover": "https://i.ibb.co/hCkv3Nc/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "author": "Michael Brown",
+    "author_img": "https://images.unsplash.com/photo-1687462310643-e993a3f09102?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXV0aGVyJTIwaW1nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "posted_date": "2023-09-09",
+    "reading_time": 7,
+    "hashtags": ["mindfulness", "health"]
+  }
+]
