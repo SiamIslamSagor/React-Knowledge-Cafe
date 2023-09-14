@@ -3,7 +3,7 @@ import Bookmark from "../Bookmark/Bookmark";
 
 const Bookmarks = ({ bookmarks, readingTime }) => {
   return (
-    <div className="md:w-1/3 rounded-xl ml-4 mt-2 pt-4">
+    <div className="md:w-1/3 rounded-xl ml-4 my-10">
       <div className=" bg-blue-100 p-4 rounded-md border border-blue-600">
         <h3 className="text-3xl m-2 ">
           Spent time on read : {readingTime} min
@@ -13,8 +13,8 @@ const Bookmarks = ({ bookmarks, readingTime }) => {
         <h2 className="text-3xl text-center ">
           Bookmarked Blogs: {bookmarks.length}
         </h2>
-        {bookmarks.map((bookmark) => (
-          <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>
+        {bookmarks.map((bookmark, index) => (
+          <Bookmark key={index} bookmark={bookmark}></Bookmark>
         ))}
       </div>
     </div>
