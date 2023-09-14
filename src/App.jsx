@@ -6,10 +6,17 @@ import Bookmarks from "./components/Bookmarks/Bookmarks";
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
 
   const handleAddToBookmark = (blog) => {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
+  };
+
+  const handleMarkAssRead = (time) => {
+    // setReadingTime(readingTime + time);
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime);
   };
 
   return (
@@ -17,8 +24,14 @@ function App() {
       <div className="container mx-auto">
         <Header></Header>
         <div className="md:flex">
-          <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
-          <Bookmarks bookmarks={bookmarks}></Bookmarks>
+          <Blogs
+            handleMarkAssRead={handleMarkAssRead}
+            handleAddToBookmark={handleAddToBookmark}
+          ></Blogs>
+          <Bookmarks
+            bookmarks={bookmarks}
+            readingTime={readingTime}
+          ></Bookmarks>
         </div>
       </div>
     </>
